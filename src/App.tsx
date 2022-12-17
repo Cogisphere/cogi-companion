@@ -1,25 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { AppFrame } from '@cogisphere/cogi-uikit';
+import { Header, Footer } from './App/index';
 
 function App() {
+
+  const top = (<Header />);
+  const bottom= (<Footer />);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppFrame top={top} bottom={bottom}>
+        <div>"Content"</div>
+    </AppFrame>
   );
 }
 
