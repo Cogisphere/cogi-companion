@@ -1,2 +1,2 @@
 export * from "./Briefing";
-export * from "./Chroaspex";
+export * from "./Chromaspex";
