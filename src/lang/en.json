@@ -2,5 +2,6 @@
     "app.header.chromaspex": "Chromaspex",
     "app.header.briefing": "Briefing",
     "chromaspex.title": "Chromaspex",
-    "briefing.title": "Briefing"
+    "briefing.title": "Briefing",
+    "widgets.paletteeditor.contols.randomcolor": "Add random"
 }
